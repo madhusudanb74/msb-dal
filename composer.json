@@ -1,0 +1,13 @@
+{
+    "name": "msb/dal",
+    "description": "Shared Eloquent models for microservices",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "DAL\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/database": "^10.0"
+    }
+}
